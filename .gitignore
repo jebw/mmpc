@@ -1,0 +1,6 @@
+++build-dir
+debian/files
+debian/mmpc.substvars
+debian/mmpc
+debian/stamp-autotools-files
+debian/stamp-makefile-build
