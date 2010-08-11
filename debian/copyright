@@ -1,0 +1,19 @@
+This package was debianized and hildonized by Holger Macht
+<holger@homac.de> on Sat,  10 Feb 2007 00:01:35 +0100.
+
+It was downloaded from http://sarine.nl/gmpc-downloads
+
+The latest development source code is also available via Subversion:
+  svn co https://svn.musicpd.org/gmpc/trunk
+
+Upstream Author of gmpc: Martijn Koedam <qball@qballcow.nl>
+
+This software is copyright (c) 2003-2006 by Martijn Koedam.
+Maemo port and Maemo player interface is copyright (c) 2007 by Holger Macht.
+
+You are free to distribute this software under the terms of
+the GNU General Public License.
+
+On Debian systems, the complete text of the GNU General Public
+License can be found in the file '/usr/share/common-licenses/GPL'.
+

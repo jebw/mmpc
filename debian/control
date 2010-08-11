@@ -1,0 +1,23 @@
+Source: mmpc
+Section: user/multimedia
+Priority: optional
+Maintainer: Holger Macht <holger@homac.de>
+Build-Depends: debhelper (>> 4.1.0), libmpd0 (>= 0.12.0), cdbs
+Standards-Version: 3.6.2.2
+
+Package: mmpc
+Architecture: any
+Depends: ${shlibs:Depends}
+Suggests: mpd
+Enhances: mpd
+Provides: mpd-client
+Description: MMPC is a frontend for the Music Player Daemon from
+ http://www.musicpd.org/. It is based on 'Gnome Music Player Client'
+ 0.13.0 (http://sarine.nl/gmpc), and thus should contain most of it's
+ features. But MMPC is more than just a port to the Maemo platform with
+ hildonization etc.. The player interface got replaced and the new one is
+ especially designed for maximum screen usage and - more important -
+ specialised to be used as a remote control. To achive that, one important
+ thing is that it can be controlled via fingers, without the need to use
+ the stylus.
+        URL: http://sarine.nl/gmpc

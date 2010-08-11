@@ -1,0 +1,38 @@
+MMPC - Maemo Music Player Client
+================================
+
+ MMPC is a frontend for the Music Player Daemon from
+ http://www.musicpd.org/. It is based on 'Gnome Music Player Client'
+ 0.13.0 (http://sarine.nl/gmpc), and thus should contain most of it's
+ features. But MMPC is more than just a port to the Maemo platform with
+ hildonization etc.. The player interface got replaced and the new one is
+ especially designed for maximum screen usage and - more important -
+ specialised to be used as a remote control. To achive that, one important
+ thing is that it can be controlled via fingers, without the need to use
+ the stylus.
+
+
+Installation
+============
+
+ Usual sequence:
+
+   - ./configure
+   - make
+   - make install
+
+
+More information
+================
+
+ Go to http://mmpc.garage.maemo.org
+
+
+Credits
+=======
+
+Thanks to QBall Cow (whoever that is) for doing libmpd and gmpc!
+
+
+Have fun,
+     Holger

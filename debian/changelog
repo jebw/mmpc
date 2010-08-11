@@ -1,0 +1,24 @@
+mmpc (0.2.1) unstable; urgency=low
+
+  * fix tree browsing (browse filesystem, browse artists, etc.)
+  * increase connection timeout to 3 seconds 
+
+ -- Holger Macht <holger@homac.de>  Sun, 13 Apr 2008 19:36:36 +0200
+
+mmpc (0.2) unstable; urgency=low
+
+  * update buttons and images
+  * add tap-and-hold functionality to some places. For example,
+    it's now possible to update the database from within the client
+  * add scroll windows to preference tabs to display the full content
+  * bold active track
+
+ -- Holger Macht <holger@homac.de>  Thu, 10 Apr 2008 19:01:50 +0200
+
+mmpc (0.1-1) unstable; urgency=low
+
+  * Adopting package for the maemo platform
+  * changelog
+  * changelog
+
+ -- Holger Macht <holger@homac.de>  Thu, 10 Apr 2008 17:41:12 +0200

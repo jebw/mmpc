@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Maemo Music Player Client
+Comment=A maemo frontend for the mpd daemon
+Exec=mmpc
+Terminal=false
+Type=Application
+Icon=mmpc
+Categories=GNOME;Application;AudioVideo;
+StartupNotify=true
+Encoding=UTF-8
+Version=1.0
+

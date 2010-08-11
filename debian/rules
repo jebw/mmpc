@@ -1,0 +1,23 @@
+#!/usr/bin/make -f
+DEB_BUILDDIR=++build-dir
+DEB_DH_INSTALL_ARGS:=--sourcedir=debian/tmp
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/autotools.mk
+
+DEB_CONFIGURE_EXTRA_FLAGS=--disable-trayicon --disable-mmkeys
+
+SRC_NAME:=mmpc
+DEV_NAME:=mmpc-dev
+
+# remove almost empty NEWS file
+binary-post-install/mmpc::
+	rm -f debian/mmpc/usr/share/doc/mmpc/NEWS
+
+binary-post-install/mmpc-dev::
+	rm -rf debian/mmpc-dev/usr/share/doc/mmpc-dev
+	ln -sf mmpc debian/mmpc-dev/usr/share/doc/mmpc-dev
+
+clean::
+	rm -f intltool-extract intltool-merge intltool-update
+	rm -rf $(DEB_BUILDDIR)
